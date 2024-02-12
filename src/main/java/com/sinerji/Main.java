@@ -66,7 +66,7 @@ public class Main {
         Funcionario maiorRecebe = gFolha.maiorSalario(funcionarios, mes, ano);
 
         System.out.println("\n********************************");
-        System.out.println("O funcionario que rebeu mais foi: " + maiorRecebe.getNome());
+        System.out.println("O funcionario que recebeu mais foi: " + maiorRecebe.getNome());
         System.out.println("********************************");
 
         // 5 - retorne o nome do funcionário que recebeu o valor mais alto em benefícios
@@ -75,7 +75,7 @@ public class Main {
 
         System.out.println("\n********************************");
         System.out.println(
-                "O funcionario que rebeu mais em Beneficios foi: " + funMaiorBeneficio);
+                "O funcionario que recebeu mais em Beneficios foi: " + funMaiorBeneficio);
         System.out.println("********************************");
 
         // 6 - Um método que receba uma lista de vendedores, mês e ano e retorne o que
